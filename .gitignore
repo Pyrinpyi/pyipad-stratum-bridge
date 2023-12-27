@@ -2,7 +2,7 @@
 *~
 
 # Databases
-kaspad.db
+pyrin.db
 *-shm
 *-wal
 
@@ -26,6 +26,6 @@ debug.test
 __debug_bin
 .DS_Store
 
-cmd/kaspabridge/kaspabridge
-cmd/kaspabridge/bridge.
+cmd/pyrinbridge/pyrinbridge
+cmd/pyrinbridge/bridge.
 release/

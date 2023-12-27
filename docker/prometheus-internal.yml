@@ -7,7 +7,7 @@ global:
   # Attach these labels to any time series or alerts when communicating with
   # external systems (federation, remote storage, Alertmanager).
   external_labels:
-      monitor: 'kaspa-bridge'
+      monitor: 'pyrin-bridge'
 
 # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
 rule_files:
@@ -18,8 +18,8 @@ rule_files:
 # Here it's Prometheus itself.
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-  - job_name: 'ks_bridge'
+  - job_name: 'py_bridge'
          # metrics_path defaults to '/metrics'
          # scheme defaults to 'http'.
     static_configs:
-      - targets: ['ks_bridge:2114']
+      - targets: ['py_bridge:2114']

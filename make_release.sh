@@ -1,11 +1,11 @@
-CMD_PATH="../cmd/kaspabridge"
+CMD_PATH="../cmd/pyrinbridge"
 rm -rf release
 mkdir -p release
 cd release
 VERSION=1.1.6
-ARCHIVE="ks_bridge-${VERSION}"
-OUTFILE="ks_bridge"
-OUTDIR="ks_bridge"
+ARCHIVE="py_bridge-${VERSION}"
+OUTFILE="py_bridge"
+OUTDIR="py_bridge"
 
 # windows
 mkdir -p ${OUTDIR};env GOOS=windows GOARCH=amd64 go build -o ${OUTDIR}/${OUTFILE}.exe ${CMD_PATH};cp ${CMD_PATH}/config.yaml ${OUTDIR}/

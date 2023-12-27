@@ -1,9 +1,9 @@
 volumes:
   prometheus_data: {}
 services:
-  ks_bridge:
-    image: onemorebsmith/kaspa_bridge:latest
-    container_name: ks_bridge
+  py_bridge:
+    image: pyrinpyi/pyipad-stratum-bridge:latest
+    container_name: py_bridge
     restart: unless-stopped
     user: "0"
     command:
@@ -11,7 +11,7 @@ services:
       - '-stats=false'
       - '-stratum=:5555'
       - '-prom=:2114'
-      - '-kaspa=host.docker.internal:16110'
+      - '-pyrin=host.docker.internal:13110'
     ports:
       - 5555:5555
       - 2114:2114
@@ -19,7 +19,7 @@ services:
       - host.docker.internal:host-gateway
   grafana:
     image: grafana/grafana-oss:latest
-    container_name: ks_grafana
+    container_name: py_grafana
     restart: unless-stopped
     user: "0"
     volumes:
@@ -32,7 +32,7 @@ services:
       - host.docker.internal:host-gateway
   prometheus:
     image: prom/prometheus:latest
-    container_name: ks_prom
+    container_name: py_prom
     restart: unless-stopped
     volumes:
       - prometheus_data:/prometheus

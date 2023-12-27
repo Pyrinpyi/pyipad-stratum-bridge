@@ -11,7 +11,7 @@ Docker must be installed! Visit https://www.docker.com/ and follow the setup ins
 
 To begin you need to pull down the repo (or use the zipped source from the release). I'll use the release code for this example. 
 
-Go to the latest release ([v1.1](https://github.com/onemorebsmith/kaspa-stratum-bridge/releases/tag/v1.1) at the time of writing) and download the source code. Download the zip archive for windows, tar.gz for everything else.
+Go to the latest release ([v1.1](https://github.com/Pyrinpyi/pyrin-stratum-bridge/releases/tag/v1.1) at the time of writing) and download the source code. Download the zip archive for windows, tar.gz for everything else.
 
 ![image](https://user-images.githubusercontent.com/59971111/192021218-01d83e83-3ad4-4ce2-87b4-080ff30b6693.png)
 
@@ -31,7 +31,7 @@ Youll see output about downloading images and such and eventually see output lik
 
 At this point everything is running successfully in the background. 
 
-- ks_bridge is running on port :5555
+- py_bridge is running on port :5555
 - prometheus is running on port :9090
 - grafana is running on port :3000
 

@@ -1,0 +1,32 @@
+{
+    "isFavorite": false,
+    "items": [
+        {
+            "coin": "PYI",
+            "pool_ssl": false,
+            "dpool_ssl": false,
+            "miner": "srbminer",
+            "miner_config": {
+                "url": "127.0.0.1:5555",
+                "algo": "pyrin",
+                "worker": "%WORKER_NAME%",
+                "user_config": "--disable-cpu"
+            },
+            "pool_geo": []
+        },
+        {
+            "coin": "PYI",
+            "pool_ssl": false,
+            "dpool_ssl": false,
+            "miner": "custom",
+            "miner_alt": "py_bridge",
+            "miner_config": {
+                "url": "YOUR_PYIPAD_NODE_IP_HERE:13110",
+                "miner": "py_bridge",
+                "template": "doesnt.matter",
+                "install_url": "https://github.com/Pyrinpyi/pyrin-stratum-bridge/releases/download/v1.1.2/py_bridge-1.1.2_hive.tar.gz"
+            },
+            "pool_geo": []
+        }
+    ]
+}
