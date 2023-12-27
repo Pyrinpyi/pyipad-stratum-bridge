@@ -5,7 +5,7 @@
             "coin": "PYI",
             "pool_ssl": false,
             "dpool_ssl": false,
-            "miner": "srbminer",
+            "miner": "lolminer",
             "miner_config": {
                 "url": "127.0.0.1:5555",
                 "algo": "pyrin",
