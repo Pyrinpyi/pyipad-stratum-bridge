@@ -25,8 +25,7 @@ At this point the flight sheet should be happy:
 
 
 Last step, you just need to edit the custom miner section with the address of the pyrin node you're mining to. This needs the full ip/port so it'll look similar to `192.168.0.12:13110` save the changes after you're finished
-
-![image](https://github.com/Pyrinpyi/pyipad-stratum-bridge/assets/138370658/6756d318-76a2-4eec-b784-15db3dc6d02a)
+![image](https://github.com/Pyrinpyi/pyipad-stratum-bridge/assets/138370658/28c62e9e-47ed-418c-9558-dad54d417688)
 
 
 
@@ -50,7 +49,7 @@ Ideally you'd run the bridge on the same machine that your pyipad node is runnin
 
 Once the bridge is running, miners can be configured simply by replacing the pool URL with the ip:port of the bridge. In the example below the bridge is running on `192.168.0.25:5555`
 
-![image](https://github.com/Pyrinpyi/pyipad-stratum-bridge/assets/138370658/28c62e9e-47ed-418c-9558-dad54d417688)
+![image](https://github.com/Pyrinpyi/pyipad-stratum-bridge/assets/138370658/6756d318-76a2-4eec-b784-15db3dc6d02a)
 
 
 
