@@ -8,7 +8,7 @@
             "miner": "lolminer",
             "miner_config": {
                 "url": "127.0.0.1:5555",
-                "algo": "pyrinhash",
+                "algo": "PYRIN",
                 "worker": "%WORKER_NAME%",
                 "user_config": "--disable-cpu"
             },
