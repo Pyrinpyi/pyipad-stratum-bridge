@@ -4,7 +4,7 @@ This assumes that you will be running the ks_bridge on the mining computer. I've
 
 ---
 
-I'll be using bzminer here, so I'm focusing on the file [here](misc/hive-templates/pyi_srb_local_adapter.json). Hive gives the option to import from a file or from your clipboard; I'll be copying directly from the clipboard in this example. 
+I'll be using srb here, so I'm focusing on the file [here](misc/hive-templates/pyi_srb_local_adapter.json). Hive gives the option to import from a file or from your clipboard; I'll be copying directly from the clipboard in this example. 
 
 Navigate to the template that you want and hit the 'copy file contents' button
 ![image](https://github.com/Pyrinpyi/pyipad-stratum-bridge/assets/138370658/a72add34-0629-42dd-a3fc-4ff10cc7c89b)
