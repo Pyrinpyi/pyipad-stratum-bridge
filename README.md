@@ -9,8 +9,6 @@ This daemon is confirmed working with the miners below in both dual-mining and p
 Huge shoutout to https://github.com/onemorebsmith/kaspa-stratum-bridgev and https://github.com/KaffinPX/KStratum for the work
 Tips appreciated: `kaspa:qp9v6090sr8jjlkq7r3f4h9un5rtfhu3raknfg3cca9eapzee57jzew0kxwlp`
 
-Try my 0-fee [Pyrin Pool](http://ghost-pool.io/) built with this code!
-
 
 ## Hive Setup
 [detailed instructions here](hive-setup.md) 
