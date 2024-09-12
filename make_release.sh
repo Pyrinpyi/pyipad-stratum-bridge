@@ -2,7 +2,7 @@ CMD_PATH="../cmd/pyrinbridge"
 rm -rf release
 mkdir -p release
 cd release
-VERSION=0.13.4
+VERSION=0.14.5
 ARCHIVE="py_bridge-${VERSION}"
 OUTFILE="py_bridge"
 OUTDIR="py_bridge"

@@ -112,13 +112,21 @@ func SendExtranonce(ctx *StratumContext) {
 }
 
 var walletRegex = regexp.MustCompile("pyrin:[a-z0-9]+")
+var testnetWalletRegex = regexp.MustCompile("pyrintest:[a-z0-9]+")
 
 func CleanWallet(in string) (string, error) {
-	_, err := util.DecodeAddress(in, util.Bech32PrefixPyrin)
+	testnet := strings.HasPrefix(in, "pyrintest:")
+	prefix := util.Bech32PrefixPyrin
+
+	if testnet {
+		prefix = util.Bech32PrefixPyrinTest
+	}
+
+	_, err := util.DecodeAddress(in, prefix)
 	if err == nil {
 		return in, nil // good to go
 	}
-	if !strings.HasPrefix(in, "pyrin:") {
+	if !strings.HasPrefix(in, "pyrin:") && !strings.HasPrefix(in, "pyrintest:") {
 		return CleanWallet("pyrin:" + in)
 	}
 
@@ -126,5 +134,10 @@ func CleanWallet(in string) (string, error) {
 	if walletRegex.MatchString(in) {
 		return in[0:67], nil
 	}
+
+	if testnetWalletRegex.MatchString(in) {
+		return in[0:71], nil
+	}
+
 	return "", errors.New("unable to coerce wallet to valid pyrin address")
 }

@@ -35,8 +35,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/Pyrinpyi/go-muhash v1.0.0 h1:I4f+IzHWvNROJDs/GDmigkJXjjpJXcu2Gvf7vn6eU0E=
 github.com/Pyrinpyi/go-secp256k1 v1.0.0 h1:K2IBejaIy3GqGYRpED/HhfBog92oALfHEQEfnTGRS/s=
-github.com/Pyrinpyi/pyipad v0.13.4 h1:mTFhht7X5VAxnX+9R9Mhc5nZ9Y3jWn03JT8fsWCLw+w=
-github.com/Pyrinpyi/pyipad v0.13.4/go.mod h1:dmKs7MrwEtdF/LDilx/aaIg5D1icjT6QF83Zz6x80ck=
+github.com/Pyrinpyi/pyipad v1.1.0 h1:SCVT8yVTCrWQyEWsN4JD2idIYjPZpB0TWlvW3lymyOQ=
+github.com/Pyrinpyi/pyipad v1.1.0/go.mod h1:dmKs7MrwEtdF/LDilx/aaIg5D1icjT6QF83Zz6x80ck=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
